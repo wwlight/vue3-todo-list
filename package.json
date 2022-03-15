@@ -1,0 +1,23 @@
+{
+  "name": "vue3-todo-list",
+  "version": "0.0.1",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "serve": "vite preview",
+    "initialize": "sh initialize.sh",
+    "update": "sh update.sh",
+    "deploy": "sh deploy.sh"
+  },
+  "dependencies": {
+    "@element-plus/icons": "^0.0.11",
+    "element-plus": "^1.2.0-beta.4",
+    "vue": "^3.2.16",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "vite": "^2.6.4"
+  }
+}
