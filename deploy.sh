@@ -30,8 +30,10 @@ git init
 git config --local user.name "源代码"
 git config --local user.email "1942459198@qq.com"
 
+note=`git status`
+
 git add -A
-git commit -m "update"
+git commit -m "$note"
 
 git remote add github-origin git@github.com:sg996/vue3-todo-list.git
 git remote add gitee-origin git@gitee.com:sg996/vue3-todo-list.git

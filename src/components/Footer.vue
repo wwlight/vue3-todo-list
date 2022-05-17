@@ -36,6 +36,7 @@ export default {
         isIndeterminate: Boolean,
         updateState: Function,
     },
+    emits: ['update:checkAll', 'update:isIndeterminate'],
     setup(props, { emit }) {
         const store = useStore();
         const checked = ref(false);

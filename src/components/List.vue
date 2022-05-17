@@ -18,6 +18,7 @@ export default {
     checkAll: Boolean,
     isIndeterminate: Boolean,
   },
+  emits: ['update:checkAll', 'update:isIndeterminate'],
   setup(props, { emit }) {
     const store = useStore();
 

@@ -22,7 +22,7 @@ export default {
     props: {
         todo: {
             type: Object,
-            default: () => { },
+            default: () => ({}),
         }
     },
     setup() {
