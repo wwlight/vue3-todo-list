@@ -9,7 +9,7 @@ rimraf dist
 # 生成静态文件
 yarn build 
 
-# 进入生成的打包文件夹哥
+# 进入生成的打包文件夹
 cd dist
 
 echo "
