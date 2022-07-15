@@ -10,15 +10,20 @@
     "update": "sh update.sh",
     "deploy": "sh deploy.sh",
     "lint": "eslint ./src/* --ext .vue,.js,.ts,.jsx,.tsx --fix",
-    "format": "prettier --write ./**/*.{vue,ts,tsx,js,jsx,css,less,scss,json,md}"
+    "format": "prettier --write ./**/*.{vue,ts,tsx,js,jsx,css,less,scss,json,md}",
+    "commit": "cz",
+    "genChangeLog":"conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.6",
+    "conventional-changelog-cli": "^2.2.2",
     "element-plus": "^2.2.6",
     "vue": "^3.2.16",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@vitejs/plugin-vue": "^1.9.3",
     "@vueuse/core": "^8.9.1",
     "commitizen": "^4.2.4",
@@ -35,7 +40,7 @@
     "unplugin-vue-components": "^0.20.1",
     "vite": "^2.6.4",
     "vite-plugin-compression": "^0.5.1"
-  }, 
+  },
   "lint-staged": {
     "*.{js,vue,ts,jsx,tsx}": [
       "prettier --write",
@@ -44,5 +49,10 @@
     "*.{html,css,less,scss,md}": [
       "prettier --write"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
