@@ -11,8 +11,8 @@
 
 # 效果预览
 
-<img src="./src/assets/2021-12-08-230835-web.png" alt="" />
-<img src="./src/assets/2021-12-08-230942-mobile.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/sg996/vue3-todo-list/src/assets/2021-12-08-230835-web.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/sg996/vue3-todo-list/src/assets/2021-12-08-230942-mobile.png" alt="" />
 
 # 访问地址
 
