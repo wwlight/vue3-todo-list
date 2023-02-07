@@ -51,7 +51,7 @@ export const useTodosStore = defineStore('todos', {
                 return result;
             }, []);
         },
-        resetTodos() {
+        resetTodos(): Promise<boolean> {
             return new Promise((reslove) => {
                 setTimeout(() => {
                     this.todos = JSON.parse(JSON.stringify(TODOS));

@@ -15,7 +15,7 @@ const handleResetAndRefresh = async () => {
   checkAll.value = false;
   isIndeterminate.value = true;
   isReset.value = true;
-  await todosStore.resetTodos();
+  isReset.value = await todosStore.resetTodos();
 }
 </script>
 
