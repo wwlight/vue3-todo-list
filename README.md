@@ -1,46 +1,29 @@
-# vue-project
+# vue3-todo-list
 
-This template should help get you started developing with Vue 3 in Vite.
+基于 Vue3 + Pinia + Element Plus + TypeScript，实现 todoList 效果，学习使用 TypeScript 和 Pinia。
+<br/>
+相关参考文档：
 
-## Recommended IDE Setup
+- [Vue3](https://v3.cn.vuejs.org/)
+- [Pinia](https://pinia.vuejs.org/zh/index.html)
+- [Element Plus](https://element-plus.gitee.io/zh-CN/guide/design.html)
+- [Vite](https://cn.vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# 效果预览
 
-## Type Support for `.vue` Imports in TS
+<img src="https://cdn.jsdelivr.net/gh/sg996/vue3-todo-list/src/assets/2021-12-08-230835-web.png" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/sg996/vue3-todo-list/src/assets/2021-12-08-230942-mobile.png" alt="" />
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+# 访问地址
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+<h3>
+    <a href="https://sg996.github.io/vue3-todo-list/" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20%E5%9C%B0%E5%9D%80-https%3A%2F%2Fsg996.github.io%2Fvue3--todo--list%2F-brightgreen" alt="访问地址"/>
+    </a>
+</h3>
+<h3>
+    <a href="https://sg996.gitee.io/vue3-todo-list/" target="_blank">
+    <img src="https://img.shields.io/badge/Gitee%20%E5%9C%B0%E5%9D%80-https%3A%2F%2Fsg996.gitee.io%2Fvue3--todo--list%2F-brightgreen" alt="访问地址"/>
+    </a>
+</h3>
