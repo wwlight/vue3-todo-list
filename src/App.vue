@@ -11,7 +11,7 @@ const isIndeterminate = ref(true);
 const isReset = ref(false);
 
 // 重置
-const handleResetAndRefresh = async () => {
+  const handleResetAndRefresh = async () => {
   checkAll.value = false;
   isIndeterminate.value = true;
   isReset.value = true;
